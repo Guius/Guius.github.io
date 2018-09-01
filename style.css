@@ -12,14 +12,16 @@ p{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center top;
+	background-position: bottom center;
 	height: 100px;
 	width: 100%;
 }
 	
 
 #banner .content h1 {
-		font-size: 20px;
-		color: white;
-		
+		border: 3px solid white;
+		position: relative;
+		top: 50px;
+		width: 400px;
+		margin: 0 auto;
 }
