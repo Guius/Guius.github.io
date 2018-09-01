@@ -8,11 +8,13 @@ p{
 
 
 #banner{
-	background-image: url('../rick_morty_wallpaper.jpg');
-	background-size: 100%;
+	background-image: url("https://images.alphacoders.com/876/thumb-1920-876589.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center top;
+	height: 700px;
+	width: 100%;
 }
 	
 
