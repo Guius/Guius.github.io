@@ -5,7 +5,7 @@
 	background-image: url("https://images.alphacoders.com/876/thumb-1920-876589.jpg");
 	background-size: cover;
 	background-position: bottom center;
-	height: 200px;
+	height: auto;
 	width: 100%;
 }
 	
@@ -18,4 +18,5 @@
 		top: 50px;
 		width: 400px;
 		margin: 0 auto;
+		height:: auto;
 }
