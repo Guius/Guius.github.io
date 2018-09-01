@@ -15,5 +15,7 @@ p{
 	background-position: center top;
 }
 	
-	
-	
+
+#banner .content h1 {
+		font-size: 20px;
+}
