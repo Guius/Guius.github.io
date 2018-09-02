@@ -11,7 +11,7 @@
 	
 
 #banner .content h1 {
-		color: blue;
+		color: white;
 		border: 3px solid white;
 		position: relative;
 		top: 30px;
@@ -19,4 +19,8 @@
 		margin: 0 auto;
 		height: auto;
 		text-align: center;
+}
+
+.navigation ul{
+		list-style-type: none;
 }
