@@ -1,24 +1,23 @@
-
-
-
 #banner{
-	background-image: url("https://images.alphacoders.com/876/thumb-1920-876589.jpg");
+	background-image: url("https://images5.alphacoders.com/876/thumb-1920-876590.png");
 	background-size: cover;
 	background-position: bottom center;
-	height: 400px;
+	height: 800px;
 	width: 100%;	
 }
 	
 
 #banner .content h1 {
 		color: white;
-		border: 3px solid white;
 		position: relative;
-		top: 30px;
-		width: 400px;
+		top: 300px;
+		right: 400px;
+		width: 500px;
 		margin: 0 auto;
 		height: auto;
 		text-align: center;
+		font-size: 120px;
+		font-family: sans-serif;
 }
 
 .navigation ul{
@@ -45,4 +44,5 @@
 li a:hover {
 	background-color: grey
 }
+
 
