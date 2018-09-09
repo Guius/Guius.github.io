@@ -19,49 +19,36 @@
 		font-size: 120px;
 		font-family: sans-serif;
 }
+li {
+	display: inline;
+}
 
-ul, li{
-	list-style: none;
+ul {
+	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding:0;
+	overflow: hidden;
+	background-color: #262e35;
+	position: sticky;
+	top: 0;
 }
 
-.main-menu ul {
-	background-color: black;
-}
-
-.main-menu a{
+li a {
+	display: inline-block;
 	color: white;
-	display: block;
-	padding: 5px;
-	text-decoration: none;
-}
-
-.main-menu a:hover{
-	background -color:#333333;
-	text-decoration: none;
-	color: white;
-}
-
-.main-menu > ul {
-	display: table;
-	width: 100%;
-}
-
-.main-menu > ul > li{
-	display: table-cell
-	border-right: 1px solid #d4d4d4;
-}
-
-.main-menu > ul > li:last-child{
-	border-right: none;
-}
-
-.main-menu > ul > li > a{
 	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	width: 3
+
 }
 
-
+li a:hover {
+	background-color: #1a2b6d;
+}
 
 .column {
 	float: left;
