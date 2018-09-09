@@ -20,59 +20,56 @@
 		font-family: sans-serif;
 }
 
-
-li {
-	display: inline;
-}
-
-ul {
-	list-style-type: none;
+ul, li{
+	list-style: none;
 	margin: 0;
-	padding:0;
-	overflow: hidden;
-	background-color: #262e35;
-	position: sticky;
-	top: 0;
+	padding: 0;
 }
 
-li a {
-	display: inline-block;
+.main-menu ul {
+	background-color: black;
+}
+
+.main-menu a{
 	color: white;
-	text-align: center;
-	padding: 20px;
+	display: block;
+	padding: 5px;
 	text-decoration: none;
-	font-size: 20px;
-	font-family: sans-serif;
-	font-weight: bold;
-	width: 3
-
 }
 
-li a:hover {
-	background-color: #1a2b6d;
+.main-menu a:hover{
+	background -color:#333333;
+	text-decoration: none;
+	color: white;
 }
 
-.column1 {
+.main-menu > ul {
+	display: table;
+	width: 100%;
+}
+
+.main-menu > ul > li{
+	display: table-cell
+	border-right: 1px solid #d4d4d4;
+}
+
+.main-menu > ul > li:last-child{
+	border-right: none;
+}
+
+.main-menu > ul > li > a{
+	text-align: center;
+}
+
+
+
+.column {
 	float: left;
 	width: 33.3%;
 	height: 400px;
 	text-align: center;
 	padding-top: 250px;
 	display: block;
-}
-.column2 {
-	float: left;
-	width: 33.3%;
-	height: 400px;
-	text-align: center;
-	padding-top: 30px;
-}
-.column3 {
-	float: left;
-	width: 33.3%;
-	height: 400px;
-	text-align: center;
-	padding-top: 30px;
 }
 
 @media screen and (max-width:600px) {
