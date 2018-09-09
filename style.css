@@ -28,26 +28,28 @@ ul {
 	margin: 0;
 	padding:0;
 	overflow: hidden;
-	background-color: #262e35;
+	background-color: white;
 	position: sticky;
 	top: 0;
 }
 
 li a {
 	display: inline-block;
-	color: white;
+	color: black;
 	text-align: center;
 	padding: 20px;
 	text-decoration: none;
 	font-size: 20px;
 	font-family: sans-serif;
 	font-weight: bold;
-	width: 3
+	width: 28.78%;
+	height: 400px;
+	padding-top: 200px;
 
 }
 
 li a:hover {
-	background-color: #1a2b6d;
+	background-color: #dcdde259;
 }
 
 .column {
