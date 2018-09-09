@@ -50,4 +50,15 @@ li a:hover {
 	background-color: #1a2b6d;
 }
 
+.column {
+	float: left;
+	width: 33.3%;
+}
+
+@media screen and (max-width:600px) {
+	.column {
+		width: 100%;
+	}
+}
+
 
