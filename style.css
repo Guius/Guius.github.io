@@ -39,20 +39,38 @@ li a {
 	display: inline-block;
 	color: white;
 	text-align: center;
-	padding: 20px 20px;
+	padding: 20px;
 	text-decoration: none;
 	font-size: 20px;
 	font-family: sans-serif;
 	font-weight: bold;
+	width: 3
+
 }
 
 li a:hover {
 	background-color: #1a2b6d;
 }
 
-.column {
+.column1 {
 	float: left;
 	width: 33.3%;
+	height: 400px;
+	text-align: center;
+	padding-top: 250px;
+	display: block;
+}
+.column2 {
+	float: left;
+	width: 33.3%;
+	height: 400px;
+	text-align: center;
+	padding-top: 30px;
+}
+.column3 {
+	float: left;
+	width: 33.3%;
+	height: 400px;
 	text-align: center;
 	padding-top: 30px;
 }
@@ -61,6 +79,6 @@ li a:hover {
 	.column {
 		width: 100%;
 	}
-}
+
 
 
