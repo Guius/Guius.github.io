@@ -51,19 +51,6 @@ li a:hover {
 	background-color: #dcdde259;
 }
 
-.column {
-	float: left;
-	width: 33.3%;
-	height: 400px;
-	text-align: center;
-	padding-top: 250px;
-	display: block;
-}
-
-@media screen and (max-width:600px) {
-	.column {
-		width: 100%;
-	}
 
 
 
