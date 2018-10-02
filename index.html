@@ -8,10 +8,15 @@
 	<div id="banner">
 		<div class="content">
 			<h1>test site</h1>
+	
+
 		</div>
+
+
+
 	</div>
 	<div>
-		<ul>
+		<ul class="hidden">
 			<li>
 				<a href="guius.github.io" title="Link1">
 					<h2>Links</h2>
@@ -42,15 +47,20 @@
 		</ul>
 	</div>
 
-	<script>
-	function sayHello(){
-		alert('Hello');
-	}
+	<div class="center-div">
+		<button class="menuButton">Click Here to open menu</button>
+	</div>
 
-	sayHello();
+	<!-- Load the CDN first -->
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        
+        <!-- If CDN fails to load, serve up the local version -->
+        <script>window.jQuery || document.write('<script src="js/jquery-2.1.4.js"><\/script>');</script>
+        <script> 
+        	$('button').click(function(){
+	$('.hidden').slideToggle();
+})
+        </script>
 
-	</script>
-}
-	
 </body>
 </html>

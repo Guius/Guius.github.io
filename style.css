@@ -54,3 +54,19 @@ li a:hover {
 
 
 
+.hidden {
+	display: none;
+}
+
+
+
+.center-div {
+	margin: 0 auto;
+	width: 100px;
+	padding-top: 10px;
+}
+
+
+button {
+
+}
