@@ -20,7 +20,11 @@ html, body{
   align-items: center;
 }
 
-2
+
+input {
+	opacity: 0.5;
+	color: grey;
+}
 /*.container {*/
 	/*background: #ccc;*/
 /*}*/
