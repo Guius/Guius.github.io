@@ -24,6 +24,7 @@ html, body{
 input {
 	opacity: 0.5;
 	color: grey;
+	border: 1px solid black;
 }
 /*.container {*/
 	/*background: #ccc;*/
